@@ -1,5 +1,5 @@
 import React from 'react'
-import header from  './Header.module.css';
+import header from './Header.module.css';
 import Link from 'next/link'
 import Image from 'next/image'
 import SearchBar from '../SearchBar/SearchBar';
