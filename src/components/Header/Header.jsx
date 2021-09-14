@@ -9,14 +9,14 @@ export default function Header() {
     return (
         <nav className={header.nav}>
             <div className={header.logo}>
-                <Link href="#" to="/">
+                <Link href="/" to="/">
                     <Image src="/riot-games-logo.png" alt="" width={100} height={100}/>
                 </Link>
             </div>
             <div className={header.nav_bar}>
                 <ul className={header.nav_bar_list}>
                     <li className={header.nav_bar_item}>
-                        <Link href="#" to="#">
+                        <Link href="/Champions" to="/Champions">
                             Champions
                         </Link>
                     </li>
