@@ -5,7 +5,6 @@ export default function SearchBar() {
     return (
         <>
             <input className={bar.input} type="text" placeholder="Procure um champion......"/>
-            <FiSearch className={bar.icon}/>
         </>
     )
 }

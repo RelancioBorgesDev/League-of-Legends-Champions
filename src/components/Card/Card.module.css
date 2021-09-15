@@ -1,5 +1,5 @@
 .container{
-    width: 30rem;
+    width: 80%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -75,4 +75,31 @@
 }
 .lista_habilidades_item{
     color: #fff;
+}
+
+
+@media screen and (max-width:375px){
+    .container{
+        display: flex;
+        margin: 1;
+        width: 100%;
+        
+    }
+
+    .lista_habilidades{
+        display: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:586px){
+    .container:hover{
+        transform: scale(0);
+    }
+
+    .lista_habilidades{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
